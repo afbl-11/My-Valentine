@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @media only screen and (max-device-width: 414px) and (max-device-height: 896px) and (-webkit-min-device-pixel-ratio: 3) {
     /* Styles for iPhone XS Max */
-}
- {
+
+
     * {
         padding: 0;
         margin: 0;
@@ -167,6 +167,5 @@
         }
 
     }
-
-    /* Styles for smaller screens */
 }
+
