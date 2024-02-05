@@ -18,11 +18,11 @@ body {
 }
 .container .message-box {
     text-align: center;
-    margin-top: 60% ;    
+    margin-top: 20% ;    
 }
 .container .choices {
     display: flex;
-    margin: 25vh 0 0 0;
+    margin: 40vh 0 0 0;
     gap: 25vh;
     /* justify-content: center;
     align-items: center; */
@@ -34,7 +34,7 @@ body {
     animation: full-heart 2s ease infinite;
 }
 .container .choices .full-heart img:active {
-    
+
 }
 .container .choices .broken-heart img {
     width: 140px;
@@ -42,6 +42,16 @@ body {
     margin: 1.5rem 0 0 0;
     position: absolute;
     animation: full-heart 3s ease infinite;
+}
+.container .sakura-tree,
+.container .sakura-tree img{
+    
+    position: absolute;
+    width: 600px;
+    z-index: -1;
+    right: 0;
+    /* bottom: 0; */
+    margin: 12vh 0rem 0 0rem;
 }
 
 @keyframes full-heart {
