@@ -55,9 +55,9 @@ body {
 }
 .container .sakura-tree img:nth-child(2) {
      z-index: -1;
-    width: 300px;
-    height: 500px;
-    margin: 4rem  0rem 0rem 0 ;
+    width: 500px;
+    height: 700px;
+    margin: -3rem  0rem 0rem 0 ;
 }
 .container .clouds img{
     z-index: -1;
@@ -70,42 +70,42 @@ body {
 }
 .container .sakura-tree .balloons img:nth-child(1){
     z-index: -2;
-    width: 100px;
-    height: 100px;
-    /* margin: 15rem 17rem 0 0; */
-    /* animation: balloons 9s ease infinite; */
+    width: 250px;
+    height: 250px;
+    margin: 15rem 17rem 0 0;
+    animation: balloons 9s ease infinite;
     
 }
 .container .sakura-tree .balloons img:nth-child(2) {
     z-index: -2;
-    width: 100px;
-    height: 100px;
-    /* margin: 20rem 12rem 30rem 0 ; */
-    /* animation: balloons 9s ease infinite; */
+    width: 200px;
+    height: 300px;
+    margin: 20rem 12rem 30rem 0 ;
+    animation: balloons 9s ease infinite;
     
 }
 .container .sakura-tree .balloons img:nth-child(3) {
     z-index: -2;
-    width: 100px;
-    height: 100px;
-    /* margin: 10rem -4rem 0rem 0 ; */
-    /* animation: balloons 10s ease infinite; */
+    width: 200px;
+    height: 200px;
+    margin: 10rem -4rem 0rem 0 ;
+    animation: balloons 10s ease infinite;
     
 }
 .container .sakura-tree .balloons img:nth-child(4) {
     z-index: -2;
-    width: 100px;
-    height: 100px;
-    /* margin: 10rem 2rem 0rem 0 ; */
-    /* animation: balloons 11s ease infinite; */
+    width: 200px;
+    height: 200px;
+    margin: 10rem 2rem 0rem 0 ;
+    animation: balloons 11s ease infinite;
     
 }
 .container .sakura-tree .balloons img:nth-child(5) {
     z-index: -2;
-    width: 100px;
-    height: 100px;
-    /* margin: 10rem 8rem 0rem 0 ; */
-    /* animation: balloons 10s ease infinite; */
+    width: 300px;
+    height: 300px;
+    margin: 10rem 8rem 0rem 0 ;
+    animation: balloons 10s ease infinite;
     
 }
 
@@ -147,26 +147,15 @@ body {
       
     }
     50% {
-        bottom: 10vh ;
-        transform: translateX(10vw) scale(1);
+        bottom: 0.5vh ;
+        transform: translateX(4vw) scale(1);
          
     }
     100% {
-        bottom:55vh;
+        bottom:15vh;
          transform: translateX(55vw) scale(0.5);
 
     }
 
 }
 
-/* @keyframes balloon-small {
-    0% {
-        bottom: -50vh;
-    }
-    50% {
-        bottom: 20vh;
-    }
-    100% {
-        bottom: 60vh;
-    }
-} */
