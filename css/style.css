@@ -1,168 +1,172 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Great Vibes', cursive;
+@media only screen and (max-device-width: 414px) and (max-device-height: 896px) and (-webkit-min-device-pixel-ratio: 3) {
+    /* Styles for iPhone XS Max */
 }
-body {
- overflow: hidden;
- resize: none;
-}
-
-.container {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    padding: 20px;
+ {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Great Vibes', cursive;
+    }
+    body {
     overflow: hidden;
     resize: none;
-}
-.container .message-box {
-    text-align: center;
-    margin-top: 20% ;    
-}
-.container .choices {
-    display: flex;
-    margin: 45vh 0 0 0;
-    gap: 27vh;
-}
-.container .choices .full-heart img {
-    width: 120px;
-    height: 120px;
-    position: absolute;
-    margin: 2rem 0 0 2rem;
-    animation: full-heart 2s ease infinite;
-}
-
-.container .choices .broken-heart img {
-    width: 110px;
-    height: 110px;
-    margin: 1.5rem 0 0 0;
-    position: absolute;
-    animation: full-heart 3s ease infinite;
-}
-.container .sakura-tree,
-.container .sakura-tree img{
-    
-    position: absolute;
-    width: 600px;
-    z-index: -2;
-    right: 0;
-    margin: 13vh 0rem 0 0rem;
-}
-.container .sakura-tree img:nth-child(2) {
-    width: 700px;
-    height: 900px;
-    margin: rem 0 1rem 0 ;
-    bottom: 0;
-    position: fixed;
-    z-index: -1;
-}
-.container .clouds img{
-    z-index: -1;
-    position: absolute;
-    width: 400px;
-}
-.balloons {
-    margin-top: 16rem;
-}
-.container .sakura-tree .balloons img:nth-child(1){
-    z-index: -2;
-    width: 250px;
-    margin: 15rem 15rem 0 0;
-    animation: balloons 8s ease infinite;
-    
-}
-.container .sakura-tree .balloons img:nth-child(2) {
-    z-index: -2;
-    width: 200px;
-    height: 200px;
-    margin: 3rem 10rem 30rem 0 ;
-    animation: balloons 9s ease infinite;
-    
-}
-.container .sakura-tree .balloons img:nth-child(3) {
-    z-index: -2;
-    width: 300px;
-    height: 300px;
-    margin: 10rem -6rem 0rem 0 ;
-    bottom: -100vh;
-    animation: balloons 10s ease infinite;
-    
-}
-.container .sakura-tree .balloons img:nth-child(4) {
-    z-index: -2;
-    width: 200px;
-    height: 200px;
-    margin: 10rem 1rem 0rem 0 ;
-    bottom: -100vh;
-    animation: balloons 11s ease infinite;
-    
-}
-.container .sakura-tree .balloons img:nth-child(5) {
-    z-index: -2;
-    width: 200px;
-    height: 200px;
-    margin: 10rem 6rem 0rem 0 ;
-    bottom: -100vh;
-    animation: balloons 10s ease infinite;
-    
-}
-
-@keyframes full-heart {
-    0% {
-        transform: scale(1) ;
-    }
-    30% {
-        transform: scale(1.1);
-    }
-    50% {
-        transform: scale(1.2);
     }
 
-    100% {
-        transform: scale(1);
+    .container {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+        overflow: hidden;
+        resize: none;
     }
+    .container .message-box {
+        text-align: center;
+        margin-top: 20% ;    
+    }
+    .container .choices {
+        display: flex;
+        margin: 45vh 0 0 0;
+        gap: 27vh;
+    }
+    .container .choices .full-heart img {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        margin: 2rem 0 0 2rem;
+        animation: full-heart 2s ease infinite;
+    }
+
+    .container .choices .broken-heart img {
+        width: 110px;
+        height: 110px;
+        margin: 1.5rem 0 0 0;
+        position: absolute;
+        animation: full-heart 3s ease infinite;
+    }
+    .container .sakura-tree,
+    .container .sakura-tree img{
+        
+        position: absolute;
+        width: 600px;
+        z-index: -2;
+        right: 0;
+        margin: 13vh 0rem 0 0rem;
+    }
+    .container .sakura-tree img:nth-child(2) {
+        width: 700px;
+        height: 900px;
+        margin: rem 0 1rem 0 ;
+        bottom: 0;
+        position: fixed;
+        z-index: -1;
+    }
+    .container .clouds img{
+        z-index: -1;
+        position: absolute;
+        width: 400px;
+    }
+    .balloons {
+        margin: 22rem 0rem 0 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .sakura-tree .balloons img:nth-child(1){
+        z-index: -2;
+        width: 250px;
+        margin: 15rem 17rem 0 0;
+        animation: balloons 9s ease infinite;
+        
+    }
+    .container .sakura-tree .balloons img:nth-child(2) {
+        z-index: -2;
+        width: 200px;
+        height: 200px;
+        margin: 20rem 12rem 30rem 0 ;
+        animation: balloons 9s ease infinite;
+        
+    }
+    .container .sakura-tree .balloons img:nth-child(3) {
+        z-index: -2;
+        width: 300px;
+        height: 300px;
+        margin: 10rem -4rem 0rem 0 ;
+        animation: balloons 10s ease infinite;
+        
+    }
+    .container .sakura-tree .balloons img:nth-child(4) {
+        z-index: -2;
+        width: 200px;
+        height: 200px;
+        margin: 10rem 2rem 0rem 0 ;
+        animation: balloons 11s ease infinite;
+        
+    }
+    .container .sakura-tree .balloons img:nth-child(5) {
+        z-index: -2;
+        width: 200px;
+        height: 200px;
+        margin: 10rem 8rem 0rem 0 ;
+        animation: balloons 10s ease infinite;
+        
+    }
+
+    @keyframes full-heart {
+        0% {
+            transform: scale(1) ;
+        }
+        30% {
+            transform: scale(1.1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+    @keyframes broken-heart {
+        0% {
+            transform: scale(1) ;
+        }
+        30% {
+            transform: scale(1.1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    @keyframes balloons {
+        0% {
+            bottom: -50vh;
+            transform: translateX(-50vw) scale(0.5);
+        
+        }
+        50% {
+            bottom: 10vh ;
+            transform: translateX(10vw) scale(1);
+            
+        }
+        /* 75% {
+            bottom: 40vh;
+            transform: translateX(55vw) scale(0.5);
+        } */
+        100% {
+            bottom:55vh;
+            transform: translateX(55vw) scale(0.2);
+
+        }
+
+    }
+
+    /* Styles for smaller screens */
 }
-@keyframes broken-heart {
-    0% {
-        transform: scale(1) ;
-    }
-    30% {
-        transform: scale(1.1);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes balloons {
-    0% {
-        bottom: -55vh;
-    }
-    50% {
-        bottom: 15vh ;
-    }
-    100% {
-        bottom:50vh;
-    }
-
-}
-
-/* @keyframes balloon-small {
-    0% {
-        bottom: -50vh;
-    }
-    50% {
-        bottom: 20vh;
-    }
-    100% {
-        bottom: 60vh;
-    }
-} */
