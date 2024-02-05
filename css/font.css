@@ -1,10 +1,10 @@
 .container .message-box h1 {
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 3px;
     z-index: 1;
 }
 .container .message-box h1:nth-child(1) {
- font-size: 50px;
+ font-size: 30px;
  letter-spacing: 7px;   
  line-height: 70px;
  z-index: 1;
