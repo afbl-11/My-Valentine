@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@media only screen and (max-device-width: 414px) and (max-device-height: 896px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (max-device-width: 1242px) and (max-device-height: 2688px) and (-webkit-min-device-pixel-ratio: 3) {
     /* Styles for iPhone XS Max */
 
 
@@ -156,10 +156,6 @@
             transform: translateX(10vw) scale(1);
             
         }
-        /* 75% {
-            bottom: 40vh;
-            transform: translateX(55vw) scale(0.5);
-        } */
         100% {
             bottom:55vh;
             transform: translateX(55vw) scale(0.2);
