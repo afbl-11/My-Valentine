@@ -1,9 +1,13 @@
 body {
-    background-color: #FFC0CB;
+    background-color: black;
     
 }
 
 .container .message-box h1 {
     color: #8B3641;
     
+}
+
+.container {
+    background-color: #FFC0CB;
 }

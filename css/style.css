@@ -8,6 +8,7 @@
 body {
  overflow: hidden;
  resize: none;
+ display: flex;
  justify-content: center;
  align-items: center;
 }
@@ -15,11 +16,11 @@ body {
 .container {
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100vh;
-    padding: 20px;
     overflow: hidden;
-    resize: none;
+    max-width: 412px;
+    max-height: 915px;
+    min-width: 412px;
+    min-height: 915px;
 }
 .container .message-box {
     text-align: center;
@@ -31,33 +32,35 @@ body {
     gap: 27vh;
 }
 .container .choices .full-heart img {
-    width: 90px;
-    height: 90px;
-    position: absolute;
-    margin: 1.5rem 1rem 0 0rem;
+    width: 50px;
+   
+    
+    
     animation: full-heart 2s ease infinite;
 }
 
 .container .choices .broken-heart img {
-    width: 90px;
-    height: 90px;
-    margin: 1.5rem 0 0 2rem;
-    position: absolute;
+    width: 50px;
+ 
+   
     animation: full-heart 3s ease infinite;
 }
 .container .sakura-tree,
 .container .sakura-tree img{
-    position: absolute;
-    width: 500px;
+   
+    width: 393px;
+    height: 569;
     z-index: -2;
     right: 0;
-    margin: 13vh 0 0 0;
+    /* margin: 13vh 0 0 0; */
 }
 .container .sakura-tree img:nth-child(2) {
-     z-index: -1;
-    width: 500px;
-    height: 700px;
-    margin: -3rem  0rem 0rem 0 ;
+    /* z-index: -1; */
+   
+    width: 375px;
+    height: 138px;
+    margin: 0rem  0rem 0rem 0 ;
+    border: 1px solid black;
 }
 .container .clouds img{
     z-index: -1;
