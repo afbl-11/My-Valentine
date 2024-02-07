@@ -70,12 +70,10 @@ min-height: 915px;
 .balloons img{
   position: absolute;
   z-index: -3;
-  margin: 16rem 0rem 0 0;
-  border: 1px solid black;
-
+  margin: 0rem 0rem 0 0;
 }
 .container .balloons img:nth-child(1){
-    width: 80px;
+    width: 65px;
     margin: 0 3rem;
     animation: balloons 11s ease infinite;
 }
@@ -89,7 +87,7 @@ min-height: 915px;
   animation: balloons 6s ease infinite;
 }
 .container .balloons img:nth-child(4) {
-   width: 100px;
+   width: 60px;
     margin: 0 15rem;
    animation: balloons 10s ease infinite;
     
@@ -134,17 +132,17 @@ min-height: 915px;
 
 @keyframes balloons {
     0% {
-        bottom: 0vh;
+        bottom: -30vh;
         transform: translateY(100vw) scale(0.5);
       
     }
     50% {
-        bottom: 20vh ;
+        bottom: 2vh ;
         transform: translateX(15vw) scale(1);
          
     }
     100% {
-        bottom:25vh;
+        bottom:20vh;
          transform: translateX(65vw) scale(0.5);
 
     }
