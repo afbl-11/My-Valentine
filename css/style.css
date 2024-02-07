@@ -130,7 +130,7 @@ min-height: 915px;
     }
 }
 
-@keyframes balloons {
+@keyfrmes balloons {
     0% {
         bottom: -30vh;
         transform: translateY(100vw) scale(0.5);
