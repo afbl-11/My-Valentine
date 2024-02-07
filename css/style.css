@@ -11,6 +11,10 @@ body {
  display: flex;
  justify-content: center;
  align-items: center;
+ max-width: 412px;
+max-height: 915px;
+min-width: 412px;
+min-height: 915px;
 }
 
 .container {
@@ -30,9 +34,9 @@ body {
 #tree {
     position: absolute;
     /* z-index: 1; */
-    width: 500px;
+    width: 410px;
     height: 437.97;
-    margin: 50% 0 0 0;
+    margin: 7rem 0% 0 0;
 }
 .container .choices {
     z-index: 1;
