@@ -12,10 +12,10 @@ body {
  justify-content: center;
  align-items: center;
  margin: auto;
- max-width: 412px;
+ /* max-width: 412px;
  max-height: 915px;
  min-width: 412px;
- min-height: 915px;
+ min-height: 915px; */
  
 }
 
@@ -24,17 +24,19 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    max-width: 412px;
+    /* max-width: 412px;
     max-height: 915px;
     min-width: 412px;
-    min-height: 915px;
+    min-height: 915px; */
+    width: 412px;
+    height: 915px;
     background-repeat: no-repeat;
     background-size: contain;
    
 }
 .container .message-box {
     text-align: center;
-    margin-top: 30% ;    
+    margin-top: 30 ;    
 }
 
 .balloons,
