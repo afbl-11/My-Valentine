@@ -45,7 +45,7 @@ make media sizes for 351 x 710 */
 }
 
 }
-media only screen and (max-width: 600px) {
+@media only screen and (min-width: 700px) {
     .container {
       background-image: url("images/mobile-bg.png");
     }
