@@ -1,4 +1,4 @@
-function enlargeHeart() {
+function crushHeart() {
   const sad_heart = document.getElementById("sad-heart");
   
   let sadWidth = parseInt(getComputedStyle(sad_heart).width);
@@ -12,17 +12,17 @@ function enlargeHeart() {
   
 }
 
-document.getElementById("sad-heart").addEventListener("click", enlargeHeart);
+document.getElementById("sad-heart").addEventListener("click", crushHeart);
 
+
+let heartsCounter = 0;
+const maxDuration = 10000; // 10 seconds
+const maxHearts = 100; // Maximum number of hearts
 
 function hearts() {
-  
-  heartsCounter = 0;
-
   startTime = Date.now();
   
   while (Date.now() - startTime < maxDuration && heartsCounter < maxHearts) {
-   
     createHeart();
   }
 }
@@ -36,14 +36,14 @@ function createHeart() {
   create_heart.style.animationDuration = Math.random() * 3 + 2 + "s";
   container.appendChild(create_heart);
 
- 
+  create_heart.addEventListener("click", removeHeartListener);
   heartsCounter++;
 }
 
-const maxDuration = 10000; 
-const maxHearts = 100; 
-let heartsCounter = 0;
-let startTime;
+function removeHeartListener(event) {
+  event.target.removeEventListener("click", removeHeartListener);
+}
+
 document.getElementById("happy-heart").addEventListener("click", hearts);
 
 function createBalloons() {

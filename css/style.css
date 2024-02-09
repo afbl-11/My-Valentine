@@ -35,7 +35,7 @@ body {
   width: 30px;
   height: 30px ;
   background-size: cover;
-  top: -1vh;
+  top: -5vh;
   left:0;
   transform: translateY(0%);
   animation: fall 3s ease-in infinite ;
