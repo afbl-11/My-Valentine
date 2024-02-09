@@ -1,5 +1,51 @@
+/* 
+firefox:
+make media sizes for 351 x 710 */
+@media only screen and (max-width: 399px) {
+    .container {
+      background-image: url("images/mobile-bg.png");
+    }
+    
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Great Vibes", cursive;
+    }
+    .container {
+      justify-content:center;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .container .message h1 {
+      font-size: 30px;
+    }
+    .container .message h2 {
+      font-size: 20px;
+      margin: 0 0 0 2rem;
+    }
+    .container .hearts-button {
+    display: flex;
+    /* margin: 48rem 0rem 0 3.5rem; */
+    margin: 170% 0 0 15%;
+    gap: 100%;
+  }
+  .container .hearts-button img {
+      width: 60px;
+      height: 60px;
+      display: flex;
+      margin: 0 0 0 0;
+      animation: hearts 2s ease infinite;
+  }
+  .hearts {
+ 
+  width: 20px;
+  height: 20px ;
+ 
+}
 
-@media only screen and (max-width: 600px) {
+}
+media only screen and (max-width: 600px) {
     .container {
       background-image: url("images/mobile-bg.png");
     }
