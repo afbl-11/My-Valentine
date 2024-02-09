@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/animations.css">
     <title>Be My Valentine</title>
 </head>
 <body>
-    <div class="container" style=" background-image: url('images/mobile-bg.png');">
-        <div class="message-box">
+    <div class="container" >
+        <div class="message">
             <h1>Will You Be</h1>
-            <h1>My Valentine?</h1>
-        </di>
-        <!-- <div class="balloons">
-            <img src="images/balloon-heart-2.png" alt="">
-            <img src="images/balloon-heart-2.png" alt="">
-            <img src="images/balloon-heart-2.png" alt="">
-            <img src="images/balloon-heart-2.png" alt="">
-            <img src="images/balloon-heart-2.png" alt="">
-        </div> -->
+            <h2>My Valentine?</h2>
+        </div>
+       <div class="hearts-button">
+            <img src="images/hart.png" alt="" draggable="false" id="happy-heart" >
+            <img src="images/brokin2.png" alt="" id="sad-heart" draggable="false" onclick="enlargeHeart()">
+       </div>
     </div>
+    <script defer src="app.js"></script>
 </body>
 </html>

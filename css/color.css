@@ -1,13 +1,6 @@
-body {
-    background-color: black;
-    
-}
 
-.container .message-box h1 {
+.container .message h1,
+.container .message h2 {
     color: #8B3641;
-    
-}
+} 
 
-.container {
-    /* background-color: #FFC0CB; */
-}

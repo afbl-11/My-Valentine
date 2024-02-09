@@ -1,12 +1,16 @@
+.container h1 {
+    letter-spacing: 7px;
+    font-size: 60px;
+    line-height: 100px;
+}
 
-.container .message-box h1:nth-child(1) {
- font-size: 250%;
- letter-spacing: 7px;
- line-height: 70px;
- z-index: 1;
+.container h2 {
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin:  0 0 0 4rem;
+}
 
-}.container .message-box h1:nth-child(2) {
-    font-size: 200%;
-    letter-spacing: 1.5px;
-    z-index: 1;
+.container .message {
+    position: absolute;
+    margin: 5% 0 0 15%;
 }
