@@ -57,3 +57,9 @@ function createBalloons() {
 createBalloons()
 
 /* Fails to create a balloon div */
+
+
+/* suggestions
+  happy heart button should only be clicked once
+  happy heart should i think make an animation going up
+*/

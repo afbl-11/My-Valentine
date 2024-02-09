@@ -24,14 +24,15 @@
   }
   .container .hearts-button {
    display: flex;
-   margin: 48rem 0rem 0 3.5rem;
-   gap: 10rem;
+   /* margin: 48rem 0rem 0 3.5rem; */
+   margin: 190% 0 0 15%;
+   gap: 100%;
 }
 .container .hearts-button img {
     width: 70px;
     height: 70px;
     display: flex;
-    margin: 0rem 0 0 0rem;
+    margin: 0 0 0 0;
     animation: hearts 2s ease infinite;
 }
 
