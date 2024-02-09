@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 600px) {
+  .container {
+    background-image: url("images/mobile-bg.png");
+  }
+  
+  * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Great Vibes", cursive;
+}
+  .container {
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .container .message h1 {
+    font-size: 40px;
+  }
+   .container .message h2 {
+    font-size: 30px;
+    margin: 0 0 0 2rem;
+  }
+  .container .hearts-button {
+   display: flex;
+   margin: 48rem 0rem 0 3.5rem;
+   gap: 10rem;
+}
+.container .hearts-button img {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    margin: 0rem 0 0 0rem;
+    animation: hearts 2s ease infinite;
+}
+
+}
