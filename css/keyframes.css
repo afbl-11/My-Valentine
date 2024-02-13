@@ -45,9 +45,9 @@ make media sizes for 351 x 710 */
 }
 
 }
-@media only screen and (min-width: 700px) {
+/* @media only screen and (min-width: 1280px) {
     .container {
-      background-image: url("images/mobile-bg.png");
+      background-image: url("images/temp_bg.png");
     }
     
     * {
@@ -70,7 +70,7 @@ make media sizes for 351 x 710 */
     }
     .container .hearts-button {
     display: flex;
-    /* margin: 48rem 0rem 0 3.5rem; */
+    margin: 48rem 0rem 0 3.5rem;
     margin: 190% 0 0 15%;
     gap: 100%;
   }
@@ -82,5 +82,13 @@ make media sizes for 351 x 710 */
       animation: hearts 2s ease infinite;
   }
 
-}
+} */
+/* @media only screen and (min-height: 606px){
+  .container {
+    background-image: url('images/balloon-heart-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+} */
 

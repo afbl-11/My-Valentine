@@ -1,5 +1,5 @@
 
-.balloons,
+/* .balloons,
 .balloons img{
   position: absolute;
   z-index: -3;
@@ -30,7 +30,7 @@
   
   animation: balloons 10s ease infinite;
     
-}
+} */
 
 
 @keyframes hearts {
@@ -66,4 +66,106 @@
 
     }
 
+}
+
+.clouds {
+  display: flex;
+ z-index: -3;
+ position: absolute;
+}
+.clouds img {
+ position: absolute;
+  max-width: 900px;
+  opacity: 0.8;
+  z-index: -1;
+}
+.clouds #cloud1{
+  animation: moveClouds 90s linear infinite;
+}
+.clouds #cloud2 {
+  animation: cloud2 150s linear infinite;
+}
+.clouds #cloud3 {
+  animation: cloud3 160s linear infinite;
+}
+.clouds #cloud4 {
+  animation: cloud4 160s linear infinite;
+}
+.clouds #cloud5 {
+  animation: cloud5 160s linear infinite;
+}
+.clouds #cloud6 {
+  animation: cloud6 220s linear infinite;
+}
+.tree {
+position: absolute;
+margin: 0 0 0rem 34rem;
+z-index: -1;
+
+}
+.tree img {
+width: 750px;
+z-index: -5;
+}
+@keyframes fall {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(103vh);
+  }
+}
+@keyframes moveClouds {
+  from {
+    transform: translateX(140%); 
+  }
+  to {
+    transform: translateX(-100%); 
+  }
+}
+
+@keyframes cloud2 {
+  from {
+    transform: translateX(140%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes cloud3 {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-90%);
+  }
+  
+}
+@keyframes cloud4 {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-90%);
+  }
+  
+}
+@keyframes cloud5 {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(-90%);
+  }
+  
+}
+@keyframes cloud6 {
+  from {
+    transform: translateX(300%);
+  }
+  to {
+    transform: translateX(-90%);
+  }
+  
 }
