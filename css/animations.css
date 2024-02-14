@@ -49,6 +49,7 @@
     }
 }
 
+
 @keyframes balloons {
     0% {
         bottom: -30vh;
@@ -68,6 +69,14 @@
 
 }
 
+@keyframes fall {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(103vh);
+  }
+}
 .clouds {
   display: flex;
  z-index: -3;
@@ -97,27 +106,12 @@
 .clouds #cloud6 {
   animation: cloud6 220s linear infinite;
 }
-.tree {
-position: absolute;
-margin: 0 0 0rem 34rem;
-z-index: -1;
-
-}
-.tree img {
-width: 750px;
-z-index: -5;
-}
-@keyframes fall {
-  0% {
-    transform: translateY(0%);
-  }
-  100% {
-    transform: translateY(103vh);
-  }
+.clouds #cloud7 {
+  animation: cloud7 220s linear infinite;
 }
 @keyframes moveClouds {
   from {
-    transform: translateX(140%); 
+    transform: translateX(110%); 
   }
   to {
     transform: translateX(-100%); 
@@ -163,6 +157,15 @@ z-index: -5;
 @keyframes cloud6 {
   from {
     transform: translateX(300%);
+  }
+  to {
+    transform: translateX(-90%);
+  }
+  
+}
+@keyframes cloud7 {
+  from {
+    transform: translateX(10%);
   }
   to {
     transform: translateX(-90%);

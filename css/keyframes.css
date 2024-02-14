@@ -1,47 +1,165 @@
 /* 
 firefox:
 make media sizes for 351 x 710 */
-@media only screen and (max-width: 399px) {
-    .container {
-      background-image: url("images/mobile-bg.png");
-    }
+@media only screen and (max-width: 414px) {
+   
+  body {
+    background-image: url('images/temp_bg.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .container {
+    overflow: hidden;
+  }
     
     * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Great Vibes", cursive;
+    
     }
-    .container {
-      justify-content:center;
-      align-items: center;
-      margin: 0 auto;
+   
+    #pink-grass {
+      margin: 45rem 0 0 0;
+      width: 170%;
+      height: 20%;
+      z-index: -1;
+    }
+    .tree {
+      width: 600px;
+      margin: 22rem 10rem 0 0 ;
+      z-index: -1;
+    }
+    .tree img {
+      width: 550px;
+      z-index: -2;
+    }
+    .container .message {
+      margin: 7rem 0 0 3rem;
+
     }
     .container .message h1 {
-      font-size: 30px;
+      font-size: 45px;
     }
     .container .message h2 {
-      font-size: 20px;
+      font-size: 35px;
       margin: 0 0 0 2rem;
     }
     .container .hearts-button {
     display: flex;
-    /* margin: 48rem 0rem 0 3.5rem; */
-    margin: 170% 0 0 15%;
+    margin: 47rem 0 0 3rem;
     gap: 100%;
   }
   .container .hearts-button img {
-      width: 60px;
-      height: 60px;
+      width: 80px;
+      height: 80px;
       display: flex;
       margin: 0 0 0 0;
       animation: hearts 2s ease infinite;
   }
   .hearts {
- 
   width: 20px;
   height: 20px ;
- 
+  }
+
+.clouds {
+display: flex;
+ z-index: -3;
+ position: absolute;
+ margin: 22rem 0rem 0 0;
+}
+.clouds img {
+ position: absolute;
+  max-width: 700px;
+  opacity: 0.8;
+  z-index: -1;
+}
+.clouds #cloud1{
+  animation: moveClouds 30s linear infinite;
+}
+.clouds #cloud2 {
+  animation: cloud2 70s linear infinite;
+}
+.clouds #cloud3 {
+  animation: cloud3 80s linear infinite;
+}
+.clouds #cloud4 {
+  animation: cloud4 90s linear infinite;
+}
+.clouds #cloud5 {
+  animation: cloud5 90s linear infinite;
+}
+.clouds #cloud6 {
+  animation: cloud6 100s linear infinite;
+}
+.clouds #cloud7 {
+  animation: cloud7 100s linear infinite;
+}
+@keyframes moveClouds {
+  from {
+    transform: translateX(50%); 
+  }
+  to {
+    transform: translateX(-50%); 
+  }
+}
+
+@keyframes cloud2 {
+  from {
+    transform: translateX(40%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes cloud3 {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(-40%);
+  }
+  
+}
+@keyframes cloud4 {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(-40%);
+  }
+  
+}
+@keyframes cloud5 {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-40%);
+  }
+  
+}
+@keyframes cloud6 {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(-40%);
+  }
+  
+}
+@keyframes cloud7 {
+  from {
+    transform: translateX(10%);
+  }
+  to {
+    transform: translateX(-90%);
+  }
+  
 }
 
 }
