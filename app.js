@@ -69,15 +69,14 @@ function createHeart() {
 function removeHeartListener(event) {
   event.target.removeEventListener("click", removeHeartListener);
 }
-
 document.getElementById("happy-heart").addEventListener("click", hearts);
 
-function createBalloons() {
-  const container = document.querySelector(".container");
-  const balloon_div = document.createElement("div");
-  balloon_div.classList.add("balloons");
-  balloon_div.style.backgroundImage = "url('images/balloon-heart-2.png')";
-  balloon_div.style.animationDuration = "10s";
-  container.appendChild(balloon_div);
-}
-createBalloons();
+// function createBalloons() {
+//   const container = document.querySelector(".container");
+//   const balloon_div = document.createElement("div");
+//   balloon_div.classList.add("balloons");
+//   balloon_div.style.backgroundImage = "url('images/balloon-heart-2.png')";
+//   balloon_div.style.animationDuration = "10s";
+//   container.appendChild(balloon_div);
+// }
+// createBalloons();
