@@ -1,41 +1,37 @@
-/* 
-firefox:
-make media sizes for 351 x 710 */
 @media only screen and (max-width: 414px) {
    
+  * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Great Vibes", cursive;
+  }
+ 
   body {
-    background-image: url('images/temp_bg.png');
+    display: flex;
+    background-image: url('images/xsmax-bg.png');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
   }
   .container {
+     display: flex;
     overflow: hidden;
   }
     
-    * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Great Vibes", cursive;
-    
-    }
-   
     #pink-grass {
       margin: 45rem 0 0 0;
       width: 170%;
       height: 20%;
       z-index: -1;
     }
-    .tree {
-      width: 600px;
-      margin: 22rem 10rem 0 0 ;
+    #tree {
       z-index: -1;
-    }
-    .tree img {
-      width: 550px;
-      z-index: -2;
+      position: absolute;
+      margin: 21rem 0rem 0 0;
+      width: 414px;
+      height: 450px;
     }
     .container .message {
       margin: 7rem 0 0 3rem;
@@ -61,21 +57,21 @@ make media sizes for 351 x 710 */
       animation: hearts 2s ease infinite;
   }
   .hearts {
+  overflow: hidden;
   width: 20px;
   height: 20px ;
   }
 
 .clouds {
-display: flex;
  z-index: -3;
- position: absolute;
  margin: 22rem 0rem 0 0;
 }
 .clouds img {
+  position: absolute;
+  display: flex;
  position: absolute;
   max-width: 700px;
   opacity: 0.8;
-  z-index: -1;
 }
 .clouds #cloud1{
   animation: moveClouds 30s linear infinite;
@@ -103,7 +99,7 @@ display: flex;
     transform: translateX(50%); 
   }
   to {
-    transform: translateX(-50%); 
+    transform: translateX(-70%); 
   }
 }
 
@@ -112,7 +108,7 @@ display: flex;
     transform: translateX(40%);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-70%);
   }
 }
 
@@ -121,7 +117,7 @@ display: flex;
     transform: translateX(50%);
   }
   to {
-    transform: translateX(-40%);
+    transform: translateX(-70%);
   }
   
 }
@@ -130,7 +126,7 @@ display: flex;
     transform: translateX(50%);
   }
   to {
-    transform: translateX(-40%);
+    transform: translateX(-70%);
   }
   
 }
@@ -139,7 +135,7 @@ display: flex;
     transform: translateX(100%);
   }
   to {
-    transform: translateX(-40%);
+    transform: translateX(-70%);
   }
   
 }
@@ -148,7 +144,7 @@ display: flex;
     transform: translateX(200%);
   }
   to {
-    transform: translateX(-40%);
+    transform: translateX(-70%);
   }
   
 }
@@ -163,50 +159,5 @@ display: flex;
 }
 
 }
-/* @media only screen and (min-width: 1280px) {
-    .container {
-      background-image: url("images/temp_bg.png");
-    }
-    
-    * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Great Vibes", cursive;
-    }
-    .container {
-      justify-content:center;
-      align-items: center;
-      margin: 0 auto;
-    }
-    .container .message h1 {
-      font-size: 40px;
-    }
-    .container .message h2 {
-      font-size: 30px;
-      margin: 0 0 0 2rem;
-    }
-    .container .hearts-button {
-    display: flex;
-    margin: 48rem 0rem 0 3.5rem;
-    margin: 190% 0 0 15%;
-    gap: 100%;
-  }
-  .container .hearts-button img {
-      width: 70px;
-      height: 70px;
-      display: flex;
-      margin: 0 0 0 0;
-      animation: hearts 2s ease infinite;
-  }
 
-} */
-/* @media only screen and (min-height: 606px){
-  .container {
-    background-image: url('images/balloon-heart-2.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-} */
 

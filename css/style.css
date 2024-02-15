@@ -27,12 +27,19 @@ body {
    margin: 27rem 0 0 10rem;
    z-index: 2;
 }
-.container .hearts-button img {
+
+.container #happy-heart {
     width: 100px;
     margin: 0 0 0 15rem;
     animation: hearts 2s ease infinite;
 }
 
+.container #sad-heart {
+    width: 100px;
+    margin: 0 0 0 15rem;
+    position: fixed; /* Adjust positioning as needed */
+    animation: hearts 2s ease infinite;
+}
 
 .hearts {
   position: fixed;
@@ -46,17 +53,56 @@ body {
   z-index: 2;
 
 }
-.tree {
-position: absolute;
-margin: 0 0 0rem 34rem;
-z-index: -1;
 
-}
-.tree img {
+#tree {
+position: absolute;
+margin: 0 0 0 34rem;
+z-index: -1;
 width: 750px;
-z-index: -5;
 }
+
 #pink-grass {
   margin: 27rem 0 0 0;
   z-index: 2;
+}
+.clouds img {
+ display: flex;
+ position: fixed;
+  opacity: 0.8;
+  z-index: -1;
+
+}
+#hap
+#sad-heart {
+  transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
+  /* position: fixed; */
+}
+
+.clouds #cloud1 {
+  max-width: 900px;
+}
+
+.clouds #cloud2 {
+  width: 300px;
+  margin: 2rem 0 0 0;
+}
+.clouds #cloud3 {
+  width: 500px;
+  margin: 2rem 0 0 0;
+}
+.clouds #cloud4 {
+  width: 900px;
+  margin: 21rem 0 0 0;
+}
+.clouds #cloud5 {
+  width: 900px;
+  margin: 21rem 0 0 0;
+}
+.clouds #cloud6 {
+  width: 900px;
+  margin: 21rem 0 0 0;
+}
+.clouds #cloud7 {
+  width: 900px;
+  margin: 21rem 0 0 0;
 }

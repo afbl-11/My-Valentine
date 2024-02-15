@@ -77,17 +77,7 @@
     transform: translateY(103vh);
   }
 }
-.clouds {
-  display: flex;
- z-index: -3;
- position: absolute;
-}
-.clouds img {
- position: absolute;
-  max-width: 900px;
-  opacity: 0.8;
-  z-index: -1;
-}
+
 .clouds #cloud1{
   animation: moveClouds 90s linear infinite;
 }
@@ -95,23 +85,30 @@
   animation: cloud2 150s linear infinite;
 }
 .clouds #cloud3 {
-  animation: cloud3 160s linear infinite;
+  animation: cloud3 165s linear infinite;
+  animation-delay: 20s;
+  opacity: 0;
+
 }
 .clouds #cloud4 {
   animation: cloud4 160s linear infinite;
 }
 .clouds #cloud5 {
   animation: cloud5 160s linear infinite;
+  animation-delay: 30s;
+  opacity: 0;
 }
 .clouds #cloud6 {
   animation: cloud6 220s linear infinite;
+  animation-delay: 60s;
+  opacity: 0;
 }
 .clouds #cloud7 {
   animation: cloud7 220s linear infinite;
 }
 @keyframes moveClouds {
   from {
-    transform: translateX(110%); 
+    transform: translateX(120%); 
   }
   to {
     transform: translateX(-100%); 
@@ -120,7 +117,7 @@
 
 @keyframes cloud2 {
   from {
-    transform: translateX(140%);
+    transform: translateX(370%);
   }
   to {
     transform: translateX(-100%);
@@ -129,10 +126,12 @@
 
 @keyframes cloud3 {
   from {
-    transform: translateX(100%);
+    transform: translateX(250%);
+    opacity: 1;
   }
   to {
     transform: translateX(-90%);
+     opacity: 1;
   }
   
 }
@@ -147,18 +146,22 @@
 }
 @keyframes cloud5 {
   from {
-    transform: translateX(200%);
+    transform: translateX(140%);
+    opacity: 1;
   }
   to {
+    opacity: 1;
     transform: translateX(-90%);
   }
   
 }
 @keyframes cloud6 {
   from {
-    transform: translateX(300%);
+    transform: translateX(140%);
+    opacity: 1;
   }
   to {
+    opacity: 1;
     transform: translateX(-90%);
   }
   
