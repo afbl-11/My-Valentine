@@ -2,7 +2,6 @@ function crushHeart() {
   const sad_heart = document.getElementById("sad-heart");
   const container = document.querySelector(".container");
 
-  // Resize the sad heart
   let sadWidth = parseInt(getComputedStyle(sad_heart).width);
   let sadHeight = parseInt(getComputedStyle(sad_heart).height);
 
@@ -12,22 +11,18 @@ function crushHeart() {
   sad_heart.style.width = newSadWidth + "px";
   sad_heart.style.height = newSadHeight + "px";
 
-  // Generate random values for position relative to the container
   let containerWidth = container.offsetWidth;
   let containerHeight = container.offsetHeight;
 
-  // Define the radius of the circular area
   let radius =
-    10 * parseFloat(getComputedStyle(document.documentElement).fontSize); // Convert 10rem to pixels
+    10 * parseFloat(getComputedStyle(document.documentElement).fontSize); 
 
-  // Generate random angles (in radians) and calculate corresponding positions within the circular area
-  let angle = Math.random() * 2 * Math.PI; // Random angle between 0 and 2pi
-  let distance = Math.random() * radius; // Random distance from center within the circular area
+  let angle = Math.random() * 2 * Math.PI; 
+  let distance = Math.random() * radius; 
 
-  let randomLeft = Math.cos(angle) * distance; // Calculate x-coordinate
-  let randomTop = Math.sin(angle) * distance; // Calculate y-coordinate
+  let randomLeft = Math.cos(angle) * distance; 
+  let randomTop = Math.sin(angle) * distance; 
 
-  // Calculate new position within the container
   let currentLeft = parseInt(getComputedStyle(sad_heart).left);
   let currentTop = parseInt(getComputedStyle(sad_heart).top);
 
@@ -40,7 +35,6 @@ function crushHeart() {
     containerHeight - newSadHeight
   );
 
-  // Set the sad heart position to the new values
   sad_heart.style.left = newLeft + "px";
   sad_heart.style.top = newTop + "px";
 }
@@ -48,8 +42,8 @@ function crushHeart() {
 document.getElementById("sad-heart").addEventListener("click", crushHeart);
 
 let heartsCounter = 0;
-const maxDuration = 10000; // 10 seconds
-const maxHearts = 100; // Maximum number of hearts
+const maxDuration = 10000; 
+const maxHearts = 100; 
 
 function hearts() {
   startTime = Date.now();
